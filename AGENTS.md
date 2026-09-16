@@ -44,9 +44,12 @@ Live-key benches can burn paid credits — the human pays those bills, not the p
 
 | File | Use |
 | --- | --- |
+| [ARCHITECTURE.md](ARCHITECTURE.md) | Modules, fan-out, merge, transports |
+| [STACK.md](STACK.md) | Rust/crates/CI stack |
 | [DISCLAIMER.md](DISCLAIMER.md) | Liability / supply chain / spend — do not soften |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | Human + agent contribution rules, DCO |
+| [LICENSE](LICENSE) | Apache-2.0 |
 | [SECURITY.md](SECURITY.md) | Private vuln reporting only |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Human + agent contribution rules, DCO |
 | [README.md](README.md) | User-facing install and tools |
 | `docs/accounts-and-gateways.md` | Named accounts / gateways |
 

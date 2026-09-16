@@ -16,20 +16,28 @@ See [named accounts and OmniRoute gateways](docs/accounts-and-gateways.md) for m
 
 Apache-2.0. Copyright 2026 Ravi Tharuma. This is **gratuitous** software (typically **$0** to the authors) — not a paid product. See [DISCLAIMER.md](DISCLAIMER.md) §0 and §5.
 
-## Community
+## Docs
 
 | Doc | Purpose |
 | --- | --- |
+| [ARCHITECTURE.md](ARCHITECTURE.md) | Modules, data flow, transports, extension points |
+| [STACK.md](STACK.md) | Language, crates, CI, what is *not* in the stack |
+| [README.md](README.md) | This file — install, tools, providers |
 | [DISCLAIMER.md](DISCLAIMER.md) | Assumption of risk, $0 liability, supply chain, spend, indemnity |
+| [LICENSE](LICENSE) | Apache License 2.0 |
+| [SECURITY.md](SECURITY.md) | Private vulnerability reporting |
 | [AGENTS.md](AGENTS.md) | Canonical coding-agent instructions (`CLAUDE.md` forbidden) |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Dev setup, DCO, contributor warranties, PR rules |
 | [docs/reporting-issues.md](docs/reporting-issues.md) | What to include (and redact) in issues |
 | [SUPPORT.md](SUPPORT.md) | Where to get help |
-| [SECURITY.md](SECURITY.md) | Private vulnerability reporting |
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community standards |
 | [GOVERNANCE.md](GOVERNANCE.md) | Maintainership and releases |
 | [CHANGELOG.md](CHANGELOG.md) | User-visible changes |
 | [NOTICE](NOTICE) | Apache NOTICE |
+
+## Community
+
+See the [Docs](#docs) table for contribution, security, and legal files.
 
 ## Get started
 
