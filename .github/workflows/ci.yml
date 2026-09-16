@@ -23,6 +23,16 @@ jobs:
         with:
           components: rustfmt, clippy
       - uses: Swatinem/rust-cache@v2
+      - name: Forbid CLAUDE.md (use AGENTS.md)
+        run: |
+          set -euo pipefail
+          hits="$(find . -type f \( -iname 'CLAUDE.md' -o -path '*/.claude/*' \) -not -path './.git/*' -print || true)"
+          if [ -n "$hits" ]; then
+            echo "Vendor-specific Claude agent files are forbidden. Use AGENTS.md only:"
+            printf '%s\n' "$hits"
+            exit 1
+          fi
+          test -f AGENTS.md
       - name: rustfmt
         run: cargo fmt --all -- --check
       - name: clippy

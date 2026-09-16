@@ -5,3 +5,11 @@
 Cargo.lock.bak
 /agent-tools
 /tmp
+
+# Vendor-specific agent instruction files — use AGENTS.md only
+CLAUDE.md
+claude.md
+**/CLAUDE.md
+**/claude.md
+.claude/
+**/.claude/
