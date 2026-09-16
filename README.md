@@ -21,6 +21,7 @@ Apache-2.0. Copyright 2026 Ravi Tharuma. This is **gratuitous** software (typica
 | Doc | Purpose |
 | --- | --- |
 | [DISCLAIMER.md](DISCLAIMER.md) | Assumption of risk, $0 liability, supply chain, spend, indemnity |
+| [AGENTS.md](AGENTS.md) | Canonical coding-agent instructions (`CLAUDE.md` forbidden) |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Dev setup, DCO, contributor warranties, PR rules |
 | [docs/reporting-issues.md](docs/reporting-issues.md) | What to include (and redact) in issues |
 | [SUPPORT.md](SUPPORT.md) | Where to get help |

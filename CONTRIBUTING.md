@@ -16,6 +16,7 @@ If you do not agree — especially the no-liability, supply-chain, spend, and ma
 - **No drive-by dependency upgrades** that expand supply-chain surface without clear justification and lockfile review.
 - **Never commit secrets** (`.env`, tokens, keys). Never log secrets.
 - **Do not weaken SSRF / private-IP / metadata protections** without an explicit security design reviewed in the PR description.
+- **No `CLAUDE.md` / `.claude/`.** Coding agents use **[AGENTS.md](AGENTS.md) only**. Do not add vendor-specific instruction files.
 - **You are solely responsible** for the contents of your PR. Maintainer merge does **not** transfer that responsibility or create liability for Project Parties (see [DISCLAIMER.md](DISCLAIMER.md)).
 
 ## Before you start
