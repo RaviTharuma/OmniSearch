@@ -1,5 +1,7 @@
 # Security Policy
 
+Architecture and SSRF boundaries: [ARCHITECTURE.md](ARCHITECTURE.md). Stack and CI: [STACK.md](STACK.md). Assumption of risk: [DISCLAIMER.md](DISCLAIMER.md). License: [LICENSE](LICENSE).
+
 ## Supported versions
 
 Security fixes are applied to the latest release on `main` and, when practical, to the most recent tagged release. Older tags are generally unsupported unless a critical issue warrants a backport.

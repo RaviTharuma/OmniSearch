@@ -175,3 +175,9 @@ Bring disputes only as allowed by mandatory law that cannot be waived — and ev
 ## 11. Precedence
 
 If this document conflicts with informal statements (chat, issues, social media), **this document and the Apache-2.0 license control**. Stronger protective language in this file is intended to **expand** disclaimers for users of this repository and does not reduce Apache-2.0 permissions granted to licensees who comply with that license.
+
+## Related
+
+- [LICENSE](LICENSE) — Apache License 2.0
+- [SECURITY.md](SECURITY.md) — vulnerability reporting
+- [ARCHITECTURE.md](ARCHITECTURE.md) · [STACK.md](STACK.md) · [README.md](README.md)
