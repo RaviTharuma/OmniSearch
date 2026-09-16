@@ -25,6 +25,7 @@ By opening this PR I certify that:
 - [ ] `cargo fmt` and `cargo clippy --all-targets -- -D warnings` pass
 - [ ] `cargo test` passes (or I explain why not)
 - [ ] No secrets in code, tests, fixtures, or screenshots
+- [ ] No `CLAUDE.md` / `.claude/` added (agents use `AGENTS.md` only)
 - [ ] New/updated dependencies are justified; `Cargo.lock` reviewed for surprise churn
 - [ ] Workflow / CI changes called out explicitly in the summary (supply-chain sensitive)
 - [ ] User-facing changes update `README.md` and/or `docs/` as needed
